@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e320780a63c04bed90c89fe5f15fe677" Name="Diagram1">
+        <EntityTypeShape EntityType="stokTakip021Model.dbbirim" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="stokTakip021Model.dbkategori" Width="1.5" PointX="0.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="stokTakip021Model.dbmarka" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="stokTakip021Model.dbmusteri" Width="1.5" PointX="5.25" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="stokTakip021Model.dbSatislar" Width="1.5" PointX="7.5" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="stokTakip021Model.dbsepet" Width="1.5" PointX="10.5" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="stokTakip021Model.dburunler" Width="1.5" PointX="5.25" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="stokTakip021Model.dbuser" Width="1.5" PointX="2.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="stokTakip021Model.ilceler" Width="1.5" PointX="3" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="stokTakip021Model.iller" Width="1.5" PointX="0.75" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="stokTakip021Model.login" Width="1.5" PointX="4.75" PointY="7.875" IsExpanded="true" />
+        <AssociationConnector Association="stokTakip021Model.FK_dburunler_dbbirim" ManuallyRouted="false" />
+        <AssociationConnector Association="stokTakip021Model.FK_dbmarka_dbkategori" ManuallyRouted="false" />
+        <AssociationConnector Association="stokTakip021Model.FK_dbsepet_dbkategori" ManuallyRouted="false" />
+        <AssociationConnector Association="stokTakip021Model.FK_dburunler_dbkategori" ManuallyRouted="false" />
+        <AssociationConnector Association="stokTakip021Model.FK_dburunler_dbmarka" ManuallyRouted="false" />
+        <AssociationConnector Association="stokTakip021Model.FK_dbmusteri_ilceler" ManuallyRouted="false" />
+        <AssociationConnector Association="stokTakip021Model.FK_dbmusteri_iller" ManuallyRouted="false" />
+        <AssociationConnector Association="stokTakip021Model.FK_dbSatislar_dbsepet" ManuallyRouted="false" />
+        <AssociationConnector Association="stokTakip021Model.FK_dbSatislar_dburunler" ManuallyRouted="false" />
+        <AssociationConnector Association="stokTakip021Model.FK_dbsepet_dburunler" ManuallyRouted="false" />
+        <AssociationConnector Association="stokTakip021Model.FK_ilceler_iller" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
